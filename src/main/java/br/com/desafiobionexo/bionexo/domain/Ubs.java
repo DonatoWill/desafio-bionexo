@@ -13,10 +13,10 @@ public class Ubs implements Serializable{
     private static final long serialVersionUID = 1L;
 
     @Id
-    private String codCnes;
-    private String vlrLatitude;
-    private String vlrLongitude;
-    private String codMunic;
+    private int codCnes;
+    private double vlrLatitude;
+    private double vlrLongitude;
+    private int codMunic;
     private String nomEstab;
     private String dscEndereco;
     private String dscBairro;
@@ -35,35 +35,35 @@ public class Ubs implements Serializable{
         return serialVersionUID;
     }
 
-    public String getCodCnes() {
+    public int getCodCnes() {
         return codCnes;
     }
 
-    public void setCodCnes(int id) {
+    public void setCodCnes(int codCnes) {
         this.codCnes = codCnes;
     }
 
-    public String getVlrLatitude() {
+    public double getVlrLatitude() {
         return vlrLatitude;
     }
 
-    public void setVlrLatitude(String vlrLatitude) {
+    public void setVlrLatitude(double vlrLatitude) {
         this.vlrLatitude = vlrLatitude;
     }
 
-    public String getVlrLongitude() {
+    public double getVlrLongitude() {
         return vlrLongitude;
     }
 
-    public void setVlrLongitude(String vlrLongitude) {
+    public void setVlrLongitude(double vlrLongitude) {
         this.vlrLongitude = vlrLongitude;
     }
 
-    public String getCodMunic() {
+    public int getCodMunic() {
         return codMunic;
     }
 
-    public void setCodMunic(String codMunic) {
+    public void setCodMunic(int codMunic) {
         this.codMunic = codMunic;
     }
 
@@ -130,7 +130,6 @@ public class Ubs implements Serializable{
     public void setDscEquipamentos(String dscEquipamentos) {
         this.dscEquipamentos = dscEquipamentos;
     }
-
 
     @Override
     public boolean equals(Object o) {
