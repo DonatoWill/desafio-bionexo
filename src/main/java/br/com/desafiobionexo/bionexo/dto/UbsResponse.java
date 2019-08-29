@@ -6,7 +6,6 @@ import java.util.Objects;
 
 public class UbsResponse {
 
-
     private int id;
     private String name;
     private String address;
@@ -16,16 +15,16 @@ public class UbsResponse {
     private Score scores;
 
     private UbsResponse(int id, String name, String address, String city, String phone, LatLng geocode, Score scores) {
-        this.id = id;
-        this.name = name;
-        this.address = address;
-        this.city = city;
-        this.phone = phone;
-        this.geocode = geocode;
-        this.scores = scores;
+        this.setId(id);
+        this.setName(name);
+        this.setAddress(address);
+        this.setCity(city);
+        this.setPhone(phone);
+        this.setGeocode(geocode);
+        this.setScores(scores);
     }
 
-    public UbsResponse of(int id, String name, String address, String city, String phone, LatLng geocode, Score scores) {
+    public static UbsResponse of(int id, String name, String address, String city, String phone, LatLng geocode, Score scores) {
         return new UbsResponse(id, name, address, city, phone, geocode, scores);
     }
 
@@ -84,6 +83,7 @@ public class UbsResponse {
     public void setScores(Score scores) {
         this.scores = scores;
     }
+
 
     @Override
     public boolean equals(Object o) {

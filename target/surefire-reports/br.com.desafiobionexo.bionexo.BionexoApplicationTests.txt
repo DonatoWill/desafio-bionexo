@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.desafiobionexo.bionexo.BionexoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.787 s - in br.com.desafiobionexo.bionexo.BionexoApplicationTests

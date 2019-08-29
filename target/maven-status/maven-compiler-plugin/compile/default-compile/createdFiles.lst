@@ -1,0 +1,8 @@
+br\com\desafiobionexo\bionexo\BionexoApplication.class
+br\com\desafiobionexo\bionexo\dto\Score.class
+br\com\desafiobionexo\bionexo\resources\UbsResource.class
+br\com\desafiobionexo\bionexo\services\UbsService.class
+br\com\desafiobionexo\bionexo\dto\UbsResponse.class
+br\com\desafiobionexo\bionexo\config\SwaggerConfig.class
+br\com\desafiobionexo\bionexo\domain\Ubs.class
+br\com\desafiobionexo\bionexo\repositories\UbsRepository.class
